@@ -835,7 +835,7 @@ end
 coroutine.wrap(krystalskybox)()
 local function krystalspam()
     local button = LMG2L["TextButton_f"]
-    button.MouseButton2Click:Connect(function()
+    button.MouseButton1Click:Connect(function()
         local Players = game:GetService("Players")
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local RunService = game:GetService("RunService")
