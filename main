@@ -581,7 +581,7 @@ local function spam()
         end
 
         -- Spam a decal on all workspace parts
-        SpamDecal("12285082171")
+        SpamDecal("137939198058148")
     end)
 end
 coroutine.wrap(spam)()
